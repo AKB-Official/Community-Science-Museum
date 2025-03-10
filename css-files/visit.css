@@ -1,0 +1,130 @@
+.visit-us-map-image {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#visit-us-text {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.visit-us-box-one {
+    margin: 30px 0px 30px 100px;
+    width: 1300px;
+    background-color: #5B8BF1;
+    box-shadow: 5px 5px 10px 10px #023299;
+    margin-top: 50px;
+}
+
+#openning-hours-box, #free-admision-box, #faq-questions-visit-us {
+    margin: 30px 0px 30px 0px;
+}
+
+#openning-hours-box {
+    background-color: #E49BC4;
+}
+
+#free-admision-box {
+    background-color: #F2D0A5;
+}
+
+#faq-questions-visit-us {
+    background-color: #AD9ACC;
+}
+
+#free-admision-box, #faq-questions-visit-us {
+    margin-left: 50px;
+}
+
+#free-admision-box p {
+    padding: 0px 20px 0px 20px;
+}
+
+#visit-us-faq-button {
+    box-shadow: 5px 5px 10px 5px #094CDB;
+    background-color: #023299;
+    width: 200px;
+    margin-left: 100px;
+}
+
+#openning-hours-box {
+    margin-left: 95px;
+}
+
+/* SPECIAL EFFECTS */
+
+#openning-hours-box:hover, #free-admision-box:hover, #faq-questions-visit-us:hover {
+    box-shadow: 0px 0px 10px 10px #626592;
+}
+
+#visit-us-faq-button:hover {
+    background-color: #2E7702;
+    box-shadow: 5px 5px 10px 5px #50CE03;
+}
+
+.visit-us-box-one:hover {
+    background-color: #8ADF56;
+    box-shadow: 5px 5px 10px 10px #2E7702;
+}
+
+#visit-us-text h1:hover, #visit-us-text p:hover {
+    color: red;
+}
+
+/*MAX WITH 1300PX*/
+@media (max-width: 1300px) {
+    .visit-us-box-one {
+      width: 1150px;
+      margin-left: 30px;
+    }
+  }
+  
+  /*MAX WITH 1200PX*/
+  @media (max-width: 1200px) {
+    .visit-us-map-image {
+      display: none;
+    }
+    
+    .visit-us-box-one {
+      width: 450px;
+      margin-left: 400px;
+    }
+  }
+  
+  /*MAX WITH 900PX*/
+  @media (max-width: 900px) {
+    .visit-us-box-one {
+      margin-left: 200px;
+    }
+  }
+  
+  /*MAX WITH 700PX*/
+  @media (max-width: 700px) {
+    .visit-us-box-one {
+      margin-left: 130px;
+    }
+  }
+  
+  /*MAX WITH 610PX*/
+  @media (max-width: 610px) {
+    .visit-us-box-one {
+      margin-left: 80px;
+      width: 400px;
+    }
+    
+    #visit-us-text h1 {
+      font-size: 20px;
+      margin-left: 15px;
+    }
+    
+    #visit-us-text p {
+      font-size: 15px;
+    }
+  }
+  
+  /*MAX WITH 550PX*/
+  @media (max-width: 550px) {
+    .visit-us-box-one {
+      margin-left: 50px;
+    }
+  }

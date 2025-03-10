@@ -1,0 +1,183 @@
+.hero-image-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1541264161754-445bbdd7de52?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.hero-image-container {
+    width: 1400px;
+    margin: 50px 0px 30px 50px;
+    box-shadow: 0px 0px 10px 10px #626592;
+}
+
+.hero-text {
+    padding: 15px 40px 20px 40px;
+}
+
+.hero-text h1 {
+    font-size: 35px;
+}
+
+/* SPECIAL EFFECTS */
+.hero-image-container:hover {
+    box-shadow: 0px 0px 10px 10px #ffffff;
+}
+
+/*MAX WITH 1300PX*/
+@media (max-width: 1300px) {
+    .hero-image-container {
+      width: 90%;
+      margin-left: 60px;
+    }
+    
+    #openning-hours-box, #free-admision-box, #faq-questions-visit-us {
+      width: 350px;
+    }
+    
+    #faq-questions-visit-us p {
+      padding: 0px 20px 0px 20px;
+    }
+    
+    #openning-hours-box {
+      margin-left: 40px;
+    }
+      
+    #visit-us-faq-button {
+      margin-left: 70px;
+    }
+  }
+
+  /*MAX WITH 1100PX*/
+@media (max-width: 1100px) {
+  
+    #openning-hours-box, #free-admision-box, #faq-questions-visit-us {
+      width: 300px;
+    }
+    
+     #visit-us-faq-button {
+      margin-left: 50px;
+    }
+    
+    #visit-us-faq-button a {
+      font-size: 25px;
+    }
+  }
+
+/*MAX WITH 1000PX*/
+@media (max-width: 1000px) {
+    #openning-hours-box {
+      margin-left: 60px;
+    }
+      
+      #openning-hours-box, #free-admision-box, #faq-questions-visit-us {
+      width: 250px;
+    }
+    
+    #text-boxes-visit-us p {
+      font-size: 15px;
+    }
+    
+    #text-boxes-visit-us h1 {
+      font-size: 20px;
+    }
+    
+    #visit-us-faq-button a {
+      font-size: 15px;
+    }
+    
+    #visit-us-faq-button {
+      width: 150px;
+      padding-bottom: 10px;
+    }
+    
+    .hero-text h1 {
+      font-size: 25px;
+    }
+    
+    .hero-text h2 {
+      font-size: 20px;
+    }
+    
+    .hero-text p {
+      font-size: 15px;
+    }
+  }
+
+  /*MAX WITH 850PX*/
+@media (max-width: 850px) {
+    #openning-hours-box {
+      margin-left: 80px;
+    }
+      
+      #openning-hours-box, #free-admision-box, #faq-questions-visit-us {
+      width: 200px;
+    }
+    
+    #visit-us-faq-button a {
+      font-size: 15px;
+    }
+    
+    #visit-us-faq-button {
+      width: 120px;
+      padding-bottom: 10px;
+      margin-left: 40px;
+    }
+  }
+
+  /*MAX WITH 750PX*/
+@media (max-width: 750px) {
+    .hero-text h1 {
+      font-size: 20px;
+    }
+    
+    .hero-text h2 {
+      font-size: 15px;
+    }
+    
+    .hero-text p {
+      font-size: 12px;
+    }
+    
+    .hero-image-container {
+      margin-left: 40px;
+    }
+    
+    #openning-hours-box {
+      margin-left: 60px;
+    }
+      
+      #openning-hours-box, #free-admision-box, #faq-questions-visit-us {
+      width: 160px;
+    }
+    
+    #text-boxes-visit-us h1 {
+      font-size: 15px;
+    }
+    
+    #text-boxes-visit-us p, #visit-us-faq-button a {
+      font-size: 10px;
+    }
+    
+    #visit-us-faq-button {
+      width: 100px;
+      height: 20px;
+      padding-top: -10px;
+      padding-bottom: 25px;
+      margin-left: 30px;
+    }
+  }
+
+  /*MAX WITH 600PX*/
+@media (max-width: 600px) {
+    #openning-hours-box {
+      margin-left: 30px;
+    }
+      
+      #openning-hours-box, #free-admision-box, #faq-questions-visit-us {
+      width: 140px;
+    }
+    
+     #visit-us-faq-button {
+      width: 70px;
+      margin-left: 30px;
+       margin-top: 20px;
+    }
+  }

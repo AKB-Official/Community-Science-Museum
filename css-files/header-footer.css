@@ -1,0 +1,652 @@
+/* STICKY HEADER + FOOTER*/
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+body {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+header.page-header, footer.page-footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+    color: #fafafa;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+main.page-body {
+    flex-grow: 1;
+    padding: 0 10px;
+    background-color: #c7caff;
+    color: black;
+  }
+
+/* ENDSTICKY HEADER + FOOTER*/
+
+/* MENU CODE */
+#mymenu {
+    width: 0;
+  }
+  
+  .menubar {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #c7caff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+  }
+
+  #mymenu img {
+    width: 55px;
+    height: 55px;
+    margin-top: 30px;
+    margin-top: 30px 30px 0px 0px;
+  }
+  
+  .menubar a {
+    padding: 8px 8px 8px 32px;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .menubar h1 {
+    margin: 50px 0px 30px 20px;
+  }
+  
+  .menubar {
+    line-height: 22px;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+
+  .flex-menu {
+    display: none;
+  }
+
+/* END MENU CODE */
+
+/* HEADER CODE */
+.header-museum-name img {
+    height: 120px;
+}
+
+.header-museum-name {
+   margin-left: -20px;
+   margin-right: 0px;
+   width: 320px;
+}
+
+.flex-menu {
+    margin-top: 30px;
+}
+
+.flex-menu img {
+    width: 65px;
+    height: 65px;
+}
+
+#exhibitions-button-header {
+    margin-left: 550px;
+}
+
+.button-header {
+    width: 160px;
+    background-color: #CBB7ED;
+    height: 45px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+/*  END HEADER CODE */
+
+/* FOOTER CODE */
+#footer-option-one h1 {
+    margin-left: 70px;
+}
+
+#footer-option-one p {
+    width: 450px;
+}
+
+#footer-option-four p {
+    width: 270px;
+    margin-left: -10px;
+}
+
+#footer-option-two p, #footer-option-three p, #footer-option-four a {
+    font-size: 15px;
+}
+
+#footer-option-four a {
+    color: #FF0303;
+    width: 400px;
+}
+
+#partnerships-footer {
+    margin-left: 85px;
+}
+
+#contact-footer {
+    margin-left: 95px;
+}
+
+#about-fotter {
+    margin-left: 100px;
+}
+
+#explore-footer {
+    margin-left: 70px;
+}
+
+#practical-information-fotter {
+    margin-left: 60px;
+}
+
+#footer-option-two h1 {
+    margin-left: 60px;
+}
+
+#footer-option-three h1 {
+    margin-left: 100px;
+}
+
+#footer-option-four h1 {
+    margin-left: 20px;
+}
+
+#footer-option-two {
+    margin-left: 70px;
+}
+
+#footer-option-three {
+    margin-left: 20px;
+}
+
+#footer-option-four {
+    margin-left: 50px;
+}
+
+#monday-footer-option {
+    text-decoration: line-through;
+}
+
+#footer-option-three h1 {
+    margin-left: 120px;
+}
+
+#footer-option-three h2 {
+    margin-left: 70px;
+}
+
+#footer-option-one {
+    margin-left: 10px;
+}
+
+/* END FOOTER CODE */
+
+/* SEPCIAL EFFECTS */
+#footer-option-four a:hover {
+    color: #2E7702;
+}
+
+#about-fotter:hover {
+    margin-left: 85px;
+}
+
+#contact-footer:hover {
+    margin-left: 80px;
+}
+
+#partnerships-footer:hover {
+    margin-left: 60px;
+}
+
+#explore-footer:hover {
+    margin-left: 30px;
+}
+
+#practical-information-fotter:hover {
+    margin-left: 20px;
+}
+
+#footer-option-one h1:hover, #footer-option-one p:hover, #footer-option-two h1:hover, #footer-option-two p:hover, #footer-option-three h1:hover, #footer-option-three p:hover, #footer-option-three h2:hover, #footer-option-four h1:hover {
+    color: #023288;
+}
+
+.button-header:hover {
+    background-color: #023299;
+    box-shadow: 5px 5px 10px 5px #094CDB;
+}
+
+.menubar a:hover {
+    color: #50CE03;
+    font-size: 35px;
+  }
+
+  #mymenu img:hover {
+    width: 65px;
+    height: 65px;
+  }
+
+/*MAX WITH 1300PX*/
+@media (max-width: 1300px) {
+  .header-museum-name img {
+    height: 100px;
+    width: 250px;
+    margin-left: 30px;
+}
+  #exhibitions-button-header {
+    margin-left: 310px;
+  }
+  
+  #support-button-header {
+    width: 130px;
+    margin-left: -15px;
+  }
+  
+  #visit-button-header {
+    width: 100px;
+    margin-left: -15px;
+  }
+  
+  #special-events-button-header, #exhibitions-button-header {
+    width: 150px;
+  }
+  
+  #special-events-button-header {
+    margin-left: -15px;
+  }
+
+  #footer-option-two h1 {
+    margin-left: 15px;
+  }
+  
+  #footer-option-two {
+    margin-left: 10px;
+  }
+  
+  #footer-option-three h1 {
+    margin-left: 80px;
+  }
+  
+  #footer-option-three h2 {
+    margin-left: 30px;
+  }
+  
+  #footer-option-four {
+    margin-left: 0px;
+  }
+  
+  #footer-option-four h1 {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+}
+
+/*MAX WITH 1200PX*/
+@media (max-width: 1200px) {
+  #footer-option-four h1 {
+    font-size: 18px;
+    margin-left: 40px;
+  }
+  
+  #footer-option-four {
+    margin-left: -15px;
+  }
+}
+
+/*MAX WITH 1100PX*/
+@media (max-width: 1100px) {
+  .header-museum-name img {
+      height: 70px;
+      width: 200px;
+      margin-left: 30px;
+    margin-top: 20px;
+  }
+  
+  .button-header {
+    margin-top: 30px;
+  }
+
+  #footer-option-one {
+    margin-left: -5px;
+  }
+  
+  #footer-option-one h1 {
+    font-size: 20px;
+    width: 290px;
+    margin-left: 15px;
+  }
+  
+  #footer-option-one p {
+    font-size: 13px;
+    width: 290px;
+  }
+  
+  #footer-option-two h1 {
+    font-size: 20px;
+    margin-left: 45px;
+  }
+  
+  #footer-option-three h1 {
+    font-size: 20px;
+    margin-left: 100px;
+  }
+  
+  #footer-option-three h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+  
+  #footer-option-three {
+    margin-left: 10px;
+  }
+  
+  #footer-option-three p, #footer-option-two p{
+    font-size: 12px;
+  }
+  
+  #footer-option-four a {
+    font-size: 14px;
+  }
+}
+
+/*MAX WITH 1050PX*/
+@media (max-width: 1050px) {
+.button-header {
+  display:none;
+}
+
+.flex-menu {
+  display: block;
+  margin-left: 600px;
+  margin-top: 10px;
+}
+
+.header-museum-name img, .header-museum-name a {
+  width: 150px;
+}
+
+.header-museum-name {
+    margin-top: -10px;
+  }
+}
+
+/*MAX WITH 1000PX*/
+@media (max-width: 1000px) {
+  #footer-option-three {
+    margin-left: 0px;
+  }
+  
+  #footer-option-three h1 {
+    margin-left: 89px;
+  }
+  
+  #footer-option-three h2 {
+    margin-left: 50px;
+  }
+  
+  #footer-option-four a {
+    font-size: 12px;
+  }
+  
+  #footer-option-four h1 {
+    margin-left: 30px;
+  }
+}
+
+/*MAX WITH 930PX*/
+@media (max-width: 930px) {
+  #footer-option-two h1 {
+    margin-left: 20px;
+  }
+  
+  #footer-option-three h1 {
+    margin-left: 75px;
+  }
+  
+  #footer-option-three h2 {
+    margin-left: 30px;
+  }
+  
+  #footer-option-four h1 {
+    width: 200px;
+  }
+}
+
+/*MAX WITH 900PX*/
+@media (max-width: 900px) {
+  #footer-option-two h1 {
+    margin-left: 0px;
+  }
+  
+  #footer-option-three h1 {
+    margin-left: 50px;
+  }
+  
+  #footer-option-three h2 {
+    margin-left: 10px;
+  }
+    
+  #footer-option-three {
+    margin-left: 30px;
+  }
+  
+  #footer-option-four {
+    float: right;
+    margin-right: -20px;
+  }
+}
+
+/*MAX WITH 880PX*/
+@media (max-width: 880px) {
+  #footer-option-two h1 {
+   margin-left: -10px;
+ }
+ 
+ #footer-option-three h2 {
+   margin-left: 0px;
+ }
+}
+
+/*MAX WITH 850PX*/
+@media (max-width: 850px) {
+  .flex-menu {
+    margin-left: 500px;
+  }
+
+  #footer-option-two h1 {
+    margin-left: -15px;
+  }
+  
+  #footer-option-three h2 {
+    margin-left: 0px;
+    font-size: 18px;
+  }
+  
+  #footer-option-three h1 {
+    margin-left: 35px;
+  }
+  
+  #footer-option-four {
+    margin-right: -40px;
+  }
+}
+
+/*MAX WITH 800PX*/
+@media (max-width: 800px) {
+  #footer-option-one p {
+    font-size: 10px;
+    width: 230px;
+  }
+
+  #footer-option-one h1, #footer-option-two h1, #footer-option-three h1, #footer-option-three h2 {
+    font-size: 15px;
+  }
+  
+  #footer-option-two p, #footer-option-three p, #footer-option-four a {
+    font-size: 10px;
+  }
+  
+  #footer-option-two {
+    margin-left: -70px;
+  }
+  
+  #footer-option-two h1 {
+    margin-left: 30px;
+  }
+  
+  #footer-option-three {
+    margin-left: -10px;
+  }
+  
+  #footer-option-three h1 {
+    margin-left: 70px;
+  }
+  
+  #footer-option-three h2 {
+    margin-left: 40px;
+  }
+  
+  #footer-option-four a {
+    font-size: 10px;
+  }
+  
+  #contact-footer {
+    margin-left: 99px;
+  }
+  
+  #partnerships-footer {
+    margin-left: 92px;
+  }
+  
+  #explore-footer {
+    margin-left: 80px;
+  }
+  
+  #practical-information-fotter {
+    margin-left: 75px;
+  }
+}
+
+   /*MAX WITH 750PX*/
+@media (max-width: 750px) {
+  .flex-menu {
+    margin-left: 400px;
+  }
+}
+
+/*MAX WITH 700PX*/
+@media (max-width: 700px) {
+  #footer-option-one p {
+    font-size: 9px;
+    width: 150px;
+  }
+  
+  #footer-option-one h1 {
+    width: 150px;
+    text-align: center;
+    margin-left: -5px;
+  }
+}
+
+   /*MAX WITH 650PX*/
+@media (max-width: 650px) {
+  .flex-menu {
+    margin-left: 300px;
+  }
+
+  #footer-option-one {
+    margin-left: -10px;
+  }
+  
+  #footer-option-two {
+    margin-left: -15px;
+  }
+  
+  #footer-option-two h1 {
+    margin-left: 10px;
+  }
+  
+  #footer-option-three h1 {
+    margin-left: 50px;
+  }
+  
+  #footer-option-three h2 {
+    margin-left: 20px;
+  }
+}
+
+   /*MAX WITH 550PX*/
+@media (max-width: 550px) {
+  .menubar h1 {
+    font-size: 25px;
+  }
+  
+  .menubar a {
+    font-size: 15px;
+  }
+
+  .flex-menu {
+    margin-left: 200px;
+  }
+
+  #footer-option-one {
+    display: none;
+  }
+  
+  #footer-option-two h1 {
+    margin-left: 25px;
+  }
+  
+  #footer-option-three h1 {
+    margin-left: 70px;
+  }
+  
+  #footer-option-three h2 {
+    margin-left: 40px;
+  }
+}
+
+   /*MAX WITH 480PX*/
+   @media (max-width: 490px) {
+  
+    #footer-option-two h1 {
+     margin-left: 7px;
+   }
+ 
+   #monday-footer-option {
+     margin-left: -5px;
+   }
+   
+   #footer-option-three h1 {
+     margin-left: 45px;
+   }
+   
+   #footer-option-three h2 {
+     margin-left: 20px;
+   }
+ }
+
+   /*MAX WITH 450PX*/
+@media (max-width: 450px) {
+  .flex-menu {
+    margin-left: 100px;
+  }
+}

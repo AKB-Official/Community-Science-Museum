@@ -1,0 +1,320 @@
+.text {
+    margin-left: -20px;
+    padding-top: 10%;
+  }
+
+.contactform, .checkoutform {
+    background-color: #c1eabc;
+    width: 750px;
+    border-radius: 1em;
+    box-shadow: 0px 0px 10px 10px #626592;
+  }
+
+.contactform {
+    margin: 50px auto;
+  }
+
+.checkoutform {
+    margin: 20px;
+  }
+
+ul {
+    list-style: none;
+    margin: 10px;
+  }
+  
+label {
+    display: inline-block;
+    width: 200px;
+  }
+  
+label::after {
+    content: ":";
+  }
+
+input, textarea {
+  width: 400px;
+  box-sizing: border-box;
+  outline: none;
+  background-color: #ffffff;
+}
+
+textarea {
+  vertical-align: middle;
+  height: 5em;
+  resize: vertical;
+  resize: none;
+}
+
+.formbutton {
+  background-color: #2E7702;
+  box-shadow: 5px 5px 10px 5px #50CE03;
+  float: auto;
+  cursor: pointer;
+  border-radius: 15px;
+  padding-bottom: 10px;
+  margin: 30px 0px 0px 250px;
+}
+
+label {
+    width: 300px;
+}
+
+#option-one-contact {
+  background-color: #E49BC4;
+}
+
+#phone-number-contact {
+  background-color: #F2D0A5;
+}
+
+#front-desk-contact {
+  background-color: #A0D9F3;
+}
+
+.last-option-contact {
+  background-color: #FBFAC8;
+}
+
+#phone-number-contact p, #front-desk-contact p, .last-option-contact p {
+    padding: 0px 20px 0px 20px;
+}
+
+#option-one-contact, #phone-number-contact, #front-desk-contact {
+    margin: 40px 0px 50px 70px;
+}
+
+.last-option-contact {
+    height: 250px;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
+
+.faq-link-contact-page {
+    box-shadow: 5px 5px 10px 5px #094CDB;
+    background-color: #023299;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+/* SPECIAL EFFECTS */
+.faq-link-contact-page:hover, .faq-link-contact-page:hover {
+  background-color: #2E7702;
+  box-shadow: 5px 5px 10px 5px #50CE03;
+}
+
+.contactform:hover {
+  background-color: #B1DEF1;
+  box-shadow: 5px 5px 10px 10px #fafafa;
+  width: 850px;
+}
+
+#option-one-contact:hover, #phone-number-contact:hover, #front-desk-contact:hover, .last-option-contact:hover {
+  background-color: #CBB7ED;
+  box-shadow: 5px 5px 10px 5px #826EB0;
+}
+
+#option-one-contact a:hover{
+  color: red;
+}
+
+#option-one-contact:hover, #phone-number-contact:hover, #front-desk-contact:hover {
+  margin-left: 30px;
+}
+
+#first-name:hover, #last-name:hover, #phone-number:hover, #email-filed:hover {
+  height: 60px;
+}
+
+#question-filed:hover {
+  height: 130px;
+}
+
+.formbutton:hover {
+  background-color: #023299;
+  box-shadow: 5px 5px 10px 5px #094CDB;
+}
+
+/*MAX WITH 1300PX*/
+@media (max-width: 1300px) {
+  #option-one-contact {
+    margin-left: 20px;
+  }
+  
+  .last-option-contact {
+    margin-left: 430px;
+  }
+}
+
+/*MAX WITH 1100PX*/
+@media (max-width: 1100px) {
+  .last-option-contact {
+    margin-left: 380px;
+  }
+}
+
+/*MAX WITH 1000PX*/
+@media (max-width: 1000px) {
+  .last-option-contact {
+    margin-left: 300px;
+  }
+  
+  #option-one-contact, #phone-number-contact, #front-desk-contact {
+    width: 320px;
+  }
+  
+  #option-one-contact a, #phone-number-contact p, #front-desk-contact p, #faq-link-contact p {
+    font-size: 15px;
+  }
+  
+  #option-one-contact h1, #phone-number-contact h1, #front-desk-contact h1, #faq-link-contact h1 {
+    font-size: 20px;
+  }
+  
+  #phone-number-contact, #front-desk-contact {
+    margin-left: 20px;
+  }
+}
+
+/*MAX WITH 950PX*/
+@media (max-width: 950px) {
+  .last-option-contact {
+    margin-left: 250px;
+  }
+}
+
+/*MAX WITH 850PX*/
+@media (max-width: 850px) {
+  .contactform {
+    width: 600px;
+  }
+  
+  .contactform:hover {
+    width: 650px;
+  }
+  
+  label {
+    width: 200px;
+    font-size: 20px;
+  }
+  
+  #first-name:hover, #last-name:hover, #phone-number:hover, #email-filed:hover, #question-filed:hover {
+    width: 350px;
+  }
+    
+   input, textarea {
+  width: 300px;
+  box-sizing: border-box;
+  outline: none;
+  background-color: #ffffff;
+}
+  
+  .formbutton {
+    margin-left: 150px;
+  }
+  
+  #option-one-contact a {
+    font-size: 12px;
+  }
+}
+
+/*MAX WITH 750PX*/
+@media (max-width: 750px) {
+  .last-option-contact {
+    margin-left: 160px;
+  }
+  
+  .faq-link-contact-page a {
+    font-size: 15px;
+  }
+  
+  .faq-link-contact-page {
+    padding-bottom: 10px;
+    width: 110px;
+    margin-left: 130PX;
+  }
+  
+  .contactform {
+    margin-left: 55px;
+    width: 500px;
+  }
+  
+  .contactform:hover {
+    width: 550px;
+  }
+  
+  label {
+    width: 150px;
+    font-size: 15px;
+  }
+  
+  #first-name:hover, #last-name:hover, #phone-number:hover, #email-filed:hover, #question-filed:hover {
+    width: 350px;
+  }
+  
+  .formbutton {
+    margin-left: 100px;
+  }
+  
+  .formbutton a {
+    font-size: 20px;
+  }
+}
+
+/*MAX WITH 600PX*/
+@media (max-width: 600px) {
+  #option-one-contact, #phone-number-contact {
+      width: 250px;
+    }
+    
+    #front-desk-contact {
+      display: none;
+    }
+    
+    #option-one-contact {
+      margin-left: 25px;
+    }
+    
+    .last-option-contact {
+      width: 300px;
+    }
+    
+    .faq-link-contact-page {
+      margin-left: 90px;
+    }
+  
+    .contactform {
+      margin-left: 55px;
+      width: 400px;
+    }
+    
+    .contactform:hover {
+      width: 450px;
+    }
+    
+    label {
+      width: 140px;
+      font-size: 13px;
+    }
+    
+    #first-name:hover, #last-name:hover, #phone-number:hover, #email-filed:hover, #question-filed:hover {
+      width: 250px;
+    }
+    
+    input, textarea {
+    width: 200px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #ffffff;
+  }
+  
+    .formbutton {
+      margin-left: 90px;
+      width: 150px;
+    }
+    
+    .formbutton a {
+      font-size: 15px;
+    }
+    
+  }

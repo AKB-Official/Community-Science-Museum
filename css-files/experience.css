@@ -1,0 +1,213 @@
+.specifc-file-option-one, .specifc-file-option-two, .specifc-file-option-three, .specifc-file-option-four, .specifc-file-option-five, .specifc-file-option-six, .specifc-file-option-seven, .specific-file-option-nine, .specific-file-option-teen, .specific-file-option-eleven, .specific-file-option-twelve, .specifc-file-option-eight {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#specifc-file-image img {
+    height: 350px;
+    width: 700px;
+}
+
+.specifc-file-option-eight {
+    margin-bottom: 50px;
+}
+
+.specifc-file-text, .specifc-file-text-one {
+    height: 350px;
+    width: 700px;
+}
+
+.specifc-file-text {
+    background-color: #c1eabc;
+}
+
+.specifc-file-text-one {
+    background-color: #F8C8DC;
+}
+
+#specific-file-info {
+    font-size: 17px;
+}
+
+#specific-file-info p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-of-specific-page h1 {
+    font-size: 40px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.header-of-specific-page h1 {
+    text-decoration: underline;
+}
+
+#specific-file-info a {
+    color: #FF0303;
+}
+
+/* SPECIAL EFFECTS */
+
+#specific-file-info a:hover {
+    color: #094CDB;
+}
+
+.specifc-file-text:hover {
+    background-color: #fafabe;
+}
+
+.specifc-file-text-one:hover {
+    background-color: #fac898;
+}
+
+/*MAX WITH 1300PX*/
+@media (max-width: 1300px) {
+    .header-of-specific-page {
+      margin-left: -150px;
+    }
+    
+    #specifc-file-image img, .specifc-file-text, .specifc-file-text-one {
+      width: 550px;
+      height: 300px;
+    }
+    
+    #specific-file-info p {
+      font-size: 13px;
+    }
+  }
+
+  /*MAX WITH 1150PX*/
+@media (max-width: 1150px) {
+    .header-of-specific-page {
+        margin-left: -200px;
+      }
+    
+      .specifc-file-option-one, .specifc-file-option-two, .specifc-file-option-three, .specifc-file-option-four, .specifc-file-option-five, .specifc-file-option-six, .specifc-file-option-seven, .specific-file-option-nine, .specific-file-option-teen, .specific-file-option-eleven, .specific-file-option-twelve, .specifc-file-option-eight  {
+        margin-left: 75px;
+      }
+    
+     #specifc-file-image img, .specifc-file-text, .specifc-file-text-one {
+        width: 450px;
+        height: 250px;
+      }
+    
+    #specifc-file-header h1 {
+      font-size: 20px;
+    }
+  
+  #specific-file-info p {
+      font-size: 12px;
+    }
+  }
+
+/*MAX WITH 1000PX*/
+@media (max-width: 1000px) {
+.header-of-specific-page {
+      margin-left: -300px;
+    }
+  
+  .specifc-file-option-one, .specifc-file-option-two, .specifc-file-option-three, .specifc-file-option-four, .specifc-file-option-five, .specifc-file-option-six, .specifc-file-option-seven, .specific-file-option-nine, .specific-file-option-teen, .specific-file-option-eleven, .specific-file-option-twelve, .specifc-file-option-eight {
+        margin-left: 10px;
+      }
+  }
+
+/*MAX WITH 900PX*/
+@media (max-width: 900px) {
+    .header-of-specific-page h1 {
+        font-size: 30px;
+        margin-left: 450px;
+      }
+      
+      #specific-file-info p {
+          font-size: 12px;
+        }
+      
+      #specifc-file-header h1 {
+        font-size: 20px;
+      }
+      
+    }
+  
+  /*MAX WITH 850PX*/
+  @media (max-width: 850px) {
+      .specifc-file-text, .specifc-file-text-one {
+          padding: 0px 0px 0px 0px;
+      }
+              
+      #specifc-file-image img, .specifc-file-text, .specifc-file-text-one {
+          width: 400px;
+          height: 250px;
+      }
+              
+      .header-of-specific-page {
+          margin-left: -350px;
+      }
+    
+    #specifc-file-header h1 {
+        font-size: 15px;
+      }
+    
+    #specific-file-info p {
+        font-size: 10px;
+      }
+  }
+  
+  /*MAX WITH 750PX*/
+  @media (max-width: 750px) {
+      #specific-file-info p {
+          font-size: 10px;
+      }
+  }
+  
+  /*MAX WITH 700PX*/
+   @media (max-width: 700px) {
+      #specifc-file-image img, .specifc-file-text, .specifc-file-text-one {
+          width: 300px;
+          height: 200px;
+      }
+      
+      .specifc-file-text, .specifc-file-text-one {
+        padding: 0px 0px 0px 0px;
+      }
+      
+       #specifc-file-header h1 {
+        font-size: 15px;
+      }
+      
+      #specific-file-info p {
+          font-size: 9px;
+        }
+      
+      .header-of-specific-page h1 {
+        font-size: 25px;
+        margin-left: 430px;
+      }
+    }
+  
+  /*MAX WITH 600PX*/
+  @media (max-width: 600px) {
+      .header-of-specific-page {
+          margin-left: -390px;
+      }
+    
+    #specific-file-info p {
+          font-size: 8px;
+        }
+    
+    #specifc-file-header h1 {
+        font-size: 12px;
+      }
+  }
+  
+  /*MAX WITH 550PX*/
+  @media (max-width: 550px) {
+      .header-of-specific-page h1 {
+        font-size: 20px;
+      }
+      
+      .header-of-specific-page {
+        margin-left: -380px;
+      }
+    }

@@ -1,0 +1,158 @@
+.for-kids-section-explore-page, .for-teachers-section-explore-page, .for-researchers-section-explore-page {
+    width: 1200px;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+
+.for-teachers-section-explore-page, .for-researchers-section-explore-page  {
+    margin-top: 75px;
+}
+
+.for-kids-section-explore-page {
+    background-color: #023288;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.for-teachers-section-explore-page {
+    background-color: #2E7702;
+}
+
+.for-researchers-section-explore-page {
+    background-color: #023288;
+    margin-bottom: 50px;
+}
+
+.explore-text p, .explore-text-one p {
+    width: 800px;
+}
+
+.explore-text-one p {
+    padding-left: 50px;
+}
+
+.explore-text-one h1{
+    padding-left: 80px;
+}
+
+.explore-text {
+    margin-left: 40px;
+}
+
+.explore-image img {
+    height: 450px;
+}
+
+.explore-image-one img, .explore-image-two img {
+    width: 190px;
+    height: 250px;
+}
+
+.explore-image, .explore-image-two {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.explore-image-one {
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#header-explore-paht h1 {
+    font-size: 45px;
+    margin-left: 30px;
+}
+
+/* FOOTER */
+#footer-option-four h1 {
+    margin-left: 0px;
+}
+
+#footer-option-one h1 {
+    margin-left: 50px;
+}
+
+#footer-option-two h1 {
+    margin-left: 40px;
+}
+
+/* END FOOTER */
+
+/* SPECIAL EFFECTS*/
+.for-kids-section-explore-page:hover, .for-teachers-section-explore-page:hover, .for-researchers-section-explore-page:hover {
+    background-color: #826EB0;
+    box-shadow: 5px 5px 10px 15px #5D4B86;
+}
+
+/*MAX WITH 1300PX*/
+@media (max-width: 1300px) {
+    .for-kids-section-explore-page, .for-teachers-section-explore-page, .for-researchers-section-explore-page {
+      width: 1100px;
+      margin-left: 10px;
+    }
+    
+    .explore-image img, .explore-image-one img, .explore-image-two img {
+      width: 140px;
+      height: 200px;
+  }
+    
+    .explore-image {
+      margin-top: 150px;
+    }
+  }
+
+  /*MAX WITH 1150PX*/
+@media (max-width: 1150px) {
+    .for-kids-section-explore-page, .for-teachers-section-explore-page, .for-researchers-section-explore-page {
+      width: 900px;
+      margin-left: 10px;
+    }
+    
+    .explore-text h1, .explore-text-one h1 {
+      font-size: 30px;
+    }
+    
+    .explore-text p, .explore-text-one p {
+      font-size: 15px;
+    }
+    
+    .explore-text-one p, .explore-text p {
+      width: 600px;
+    }
+    
+    .explore-image-one {
+      margin-left: 50px;
+    }
+  }
+
+  /*MAX WITH 950PX*/
+@media (max-width: 950px) {
+    #header-explore-paht h1 {
+      font-size: 30px;
+    }
+    
+    .for-kids-section-explore-page, .for-teachers-section-explore-page, .for-researchers-section-explore-page {
+      width: 700px;
+      margin-left: 10px;
+    }
+    
+    .explore-image img, .explore-image-one img, .explore-image-two img {
+      display: none;
+    }
+    .explore-text p, .explore-text-one p {
+      margin-left: -30px;
+    }
+  }
+
+  /*MAX WITH 750PX*/
+@media (max-width: 750px) {
+    .for-kids-section-explore-page, .for-teachers-section-explore-page, .for-researchers-section-explore-page {
+      width: 500px;
+      margin-left: 10px;
+    }
+    
+    .explore-text-one p, .explore-text p {
+      width: 400px;
+    }
+  }

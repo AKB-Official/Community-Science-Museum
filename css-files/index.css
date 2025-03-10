@@ -1,0 +1,312 @@
+.hero-image-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?q=80&w=3028&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.hero-image-image {
+    height: 300px;
+    width: 1512px;
+    margin-left: -10px;
+    margin-top: -38px;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero-image-button {
+    background-color: #023299;
+    width: 530px;
+    margin-left: 500px;
+    box-shadow: 5px 5px 10px 5px #094CDB;
+    margin-top: 40px;
+}
+
+.specifc-file-option-one, .specifc-file-option-two, .specifc-file-option-three, .specifc-file-option-four, .specifc-file-option-five, .specifc-file-option-six, .specifc-file-option-seven, .specifc-file-option-eight, .specific-file-option-nine, .specific-file-option-teen, .specific-file-option-eleven, .specific-file-option-twelve {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#specifc-file-image img {
+    height: 350px;
+    width: 700px;
+}
+
+.specifc-file-option-eight {
+    margin-bottom: 50px;
+}
+
+.specifc-file-text, .specifc-file-text-one {
+    height: 350px;
+    width: 700px;
+}
+
+.specifc-file-text {
+    background-color: #c1eabc;
+}
+
+.specifc-file-text-one {
+    background-color: #F8C8DC;
+}
+
+#specific-file-info {
+    font-size: 17px;
+}
+
+#specific-file-info p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-of-specific-page h1 {
+    font-size: 40px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.header-of-specific-page h1 {
+    text-decoration: underline;
+}
+
+#specific-file-info a {
+    color: #FF0303;
+}
+
+/* SPECIAL EFFECTS */
+
+#specific-file-info a:hover {
+    color: #094CDB;
+}
+
+.hero-image-button:hover {
+    background-color: #2E7702;
+    box-shadow: 5px 5px 10px 5px #50CE03;
+}
+
+.specifc-file-text:hover {
+    background-color: #fafabe;
+}
+
+.specifc-file-text-one:hover {
+    background-color: #fac898;
+}
+
+/*MAX WITH 1300PX*/
+@media (max-width: 1300px) {
+    .hero-image-image {
+      width: 101%;
+    }
+      
+    .hero-image-button {
+      margin-left: 370px;
+    }
+    
+    .header-of-specific-page {
+      margin-left: -150px;
+    }
+    
+    #specifc-file-image img, .specifc-file-text, .specifc-file-text-one {
+      width: 550px;
+      height: 300px;
+    }
+    
+    .specifc-file-text, .specifc-file-text-one {
+      padding: 0px 30px 0px 30px;
+    }
+    
+    #specific-file-info p {
+      font-size: 15px;
+    }
+  }
+
+  /*MAX WITH 1150PX*/
+@media (max-width: 1150px) {
+    .hero-image-button {
+        margin-left: 300px;
+      }
+    
+    .header-of-specific-page {
+        margin-left: -200px;
+      }
+    
+    .specifc-file-option-one, .specific-file-option-nine, .specific-file-option-eleven, .specifc-file-option-two, .specific-file-option-twelve, .specifc-file-option-eight  {
+        margin-left: 75px;
+      }
+    
+     #specifc-file-image img, .specifc-file-text, .specifc-file-text-one {
+        width: 450px;
+        height: 250px;
+      }
+    
+    #specific-file-info p {
+        font-size: 13px;
+      }
+    
+    #specifc-file-header h1 {
+      font-size: 22px;
+    }
+  }
+
+/*MAX WITH 1000PX*/
+@media (max-width: 1000px) {
+    
+    .hero-image-image {
+      margin-top: -25px;
+    }
+    .hero-text h1 {
+      font-size: 30px;
+    }
+    
+    .hero-image-button a {
+      font-size: 25px;
+    }
+    
+    .hero-image-button {
+      width: 390px;
+    }
+    
+    .header-of-specific-page {
+      margin-left: -300px;
+    }
+    
+    .specifc-file-option-one, .specific-file-option-nine, .specific-file-option-eleven, .specifc-file-option-two, .specific-file-option-twelve, .specifc-file-option-eight  {
+        margin-left: 10px;
+      }
+  }
+
+  /*MAX WITH 900PX*/
+  @media (max-width: 900px) {
+    .hero-image-button {
+      margin-left: 250px;
+    }
+    
+    .header-of-specific-page h1 {
+      font-size: 30px;
+      margin-left: 450px;
+    }
+    
+    #specific-file-info p {
+        font-size: 12px;
+      }
+    
+    #specifc-file-header h1 {
+      font-size: 20px;
+    }
+    
+  }
+
+/*MAX WITH 850PX*/
+@media (max-width: 850px) {
+    .specifc-file-text, .specifc-file-text-one {
+        padding: 0px 10px 0px 10px;
+    }
+            
+    #specifc-file-image img, .specifc-file-text, .specifc-file-text-one {
+        width: 400px;
+        height: 250px;
+    }
+            
+    .header-of-specific-page {
+        margin-left: -350px;
+    }
+}
+
+/*MAX WITH 800PX*/
+@media (max-width: 800px) {
+    .hero-image-button {
+      margin-left: 200px;
+    }
+}
+
+/*MAX WITH 750PX*/
+@media (max-width: 750px) {
+    #specific-file-info p {
+        font-size: 10px;
+    }
+}
+
+ /*MAX WITH 700PX*/
+ @media (max-width: 700px) {
+    #specifc-file-image img, .specifc-file-text, .specifc-file-text-one {
+        width: 300px;
+        height: 200px;
+    }
+    
+    .specifc-file-text, .specifc-file-text-one {
+      padding: 0px 0px 0px 0px;
+    }
+    
+     #specifc-file-header h1 {
+      font-size: 15px;
+    }
+    
+    #specific-file-info p {
+        font-size: 9px;
+      }
+    
+    .hero-image-button a {
+      font-size: 18px;
+    }
+    
+    .hero-image-button {
+      width: 300px;
+      padding-bottom: 10px;
+    }
+    
+    .header-of-specific-page h1 {
+      font-size: 25px;
+      margin-left: 430px;
+    }
+  }
+
+/*MAX WITH 650PX*/
+@media (max-width: 650px) {
+    .hero-text h1 {
+      font-size: 25px;
+    }
+        
+    .hero-image-button {
+      margin-left: 170px;
+    }
+}
+
+/*MAX WITH 600PX*/
+@media (max-width: 600px) {
+    .hero-image-button {
+        margin-left: 150px;
+    }
+        
+    .header-of-specific-page {
+        margin-left: -390px;
+    }
+}
+
+/*MAX WITH 550PX*/
+@media (max-width: 550px) {
+    #specifc-file-header h1 {
+      font-size: 12px;
+    }
+    
+      
+    #specific-file-info p {
+      font-size: 8px;
+    }
+    
+    .header-of-specific-page h1 {
+      font-size: 20px;
+    }
+    
+    .header-of-specific-page {
+      margin-left: -380px;
+    }
+    
+    .hero-image-button a {
+      font-size: 15px;
+    }
+    
+    .hero-image-button {
+      margin-left: 120px;
+    }
+  }

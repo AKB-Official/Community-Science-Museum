@@ -1,0 +1,142 @@
+.image-info-box img {
+    width: 800px;
+    height: 480px;
+}
+
+.text-info-box {
+    width: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-info-box a {
+    color: Red;
+}
+
+.pratical-information-info-box {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.unfold-question-thing {
+    background-color: #c1eabc;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    margin-top: 20px;
+}
+  
+.unfold-question-thing-content-text {
+    padding: 25px 75px 25px 75px;
+    display: none;
+    overflow: hidden;
+    background-color: #fafafa;
+}
+
+/* SPECIAL EFFECTS */
+.text-info-box a:hover {
+    color: #2E7702;
+}
+
+.active, .unfold-question-thing:hover {
+    background-color: #F8C8DC;
+    box-shadow: 5px -5px 25px 10px #FFF2B2;
+}
+
+.unfold-question-thing-content-text:hover {
+    box-shadow: 5px 5px 10px 10px #FFF2B2;
+}
+
+/*MAX WITH 1300PX*/
+@media (max-width: 1300px) {
+    .image-info-box img {
+      width: 550px;
+      height: 400px;
+    }
+    
+    .image-info-box {
+      margin-top: 30px;
+    }
+  }
+
+  /*MAX WITH 1000PX*/
+@media (max-width: 1000px) {
+    .image-info-box img {
+      width: 450px;
+      height: 300px;
+    }
+    
+    .text-info-box {
+      margin-top: 20px;
+    }
+   
+    .text-info-box h1 {
+      font-size: 25px;
+    }
+    
+    .text-info-box p {
+      font-size: 15px;
+    }
+    
+  .unfold-question-thing, .unfold-question-thing-content-text {
+      font-size: 15px;
+    }
+  }
+
+  /*MAX WITH 800PX*/
+@media (max-width: 800px) {
+    .image-info-box img {
+      width: 350px;
+      height: 200px;
+    }
+    
+    .image-info-box {
+      margin-top: 80px;
+    }
+    
+    .text-info-box h1 {
+      font-size: 20px;
+    }
+    
+    .text-info-box p {
+      font-size: 15px;
+    }
+  }
+
+  /*MAX WITH 700PX*/
+@media (max-width: 700px) {
+    .image-info-box img {
+      width: 300px;
+      height: 150px;
+    }
+    
+    .text-info-box {
+      width: 300px;
+    }
+    
+      .text-info-box p, .unfold-question-thing, .unfold-question-thing-content-text {
+      font-size: 10px;
+    }
+    
+    .text-info-box h1 {
+      font-size: 15px;
+    }
+  }
+
+  /*MAX WITH 570PX*/
+@media (max-width: 570px) {
+    .text-info-box {
+      margin-left: -20px;
+    }
+  }
+  
+  /*MAX WITH 550PX*/
+  @media (max-width: 550px) {
+    .image-info-box img {
+      width: 250px;
+      height: 100px;
+    }
+  }

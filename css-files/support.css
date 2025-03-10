@@ -1,0 +1,389 @@
+.support-image img {
+    height: 250px;
+}
+
+.support-image {
+    margin-left: 320px;
+    margin-top: 20px;
+}
+
+.support-us-option, .volunteer-option, .interships-option {
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 50px;
+    height: 650px;
+}
+
+.support-us-option {
+    background-color: #F8C8DC;
+}
+
+.interships-option {
+    background-color: #C4FAF8;
+}
+
+.volunteer-option {
+    background-color: #c1eabc;
+}
+
+.support-text p {
+    padding: 0px 50px 0px 50px;
+}
+
+.support-button, .support-button-form {
+    background-color: #023299;
+    box-shadow: 5px 5px 10px 5px #094CDB;
+    width: 550px;
+    padding: 5px 0px 10px 0px;
+}
+
+.support-button-form {
+    margin-left: 300px;
+}
+
+.support-button {
+    margin-left: 220px;
+}
+
+.support-button a, .support-button-form a {
+    font-size: 22px;
+}
+
+.donation-form {
+    width: 1200px;
+    font-size: 20px;
+    outline: none;
+    margin: 50px 0px 0px 200px;
+    background-color: #7299ED;
+}
+
+#amount-one {
+    margin-left: 200px;
+}
+
+#whole-custome-amount {
+    margin-left: 250px;
+}
+
+#amount-two, #amount-three, #amount-four, #amount-five {
+    margin-left: 60px;
+}
+
+input {
+    outline: none;
+    height: 20px;
+    width: 20px;
+}
+
+textarea {
+    font-size: 20px;
+    width: 400px;
+    box-sizing: border-box;
+    outline: none;
+    vertical-align: middle;
+    height: 30px;
+    resize: vertical;
+    resize: none;
+  }
+
+h1 {
+    text-align: center;
+  }
+
+/* FOOTER */
+#footer-option-one h1, #footer-option-two h1, #footer-option-three h1, #footer-option-four h1 {
+    margin-left: 0px;
+}
+
+/* END FOOTER */
+
+/* SPECIAL EFFECTS*/
+.donation-form:hover {
+    background-color: #AB95DF;
+    box-shadow: 5px 5px 10px 15px #5D4B86;
+}
+
+.volunteer-option:hover, .support-us-option:hover, .interships-option:hover {
+    box-shadow: 5px 5px 10px 15px #ffffff;
+}
+
+input:hover {
+    width: 40px;
+    height: 40px;
+}
+
+textarea:hover {
+    width: 500px;
+    height: 80px;
+}
+
+.support-button-form:hover, .support-button:hover {
+    background-color: #2E7702;
+    box-shadow: 5px 5px 10px 5px #50CE03;
+}
+
+/*MAX WITH 1300PX*/
+@media (max-width: 1300px) {
+    .donation-form {
+      width: 1100px;
+      margin-left: 50px;
+    }
+    
+    .support-us-option, .volunteer-option, .interships-option {
+      width: 1000px;
+      margin-left: 100px;
+    }
+  }
+  
+  /*MAX WITH 1265PX*/
+  @media (max-width: 1265px) {
+    .donation-form {
+      width: 1000px;
+      margin-left: 80px;
+    }
+    
+    #amount-one {
+      margin-left: 120px;
+    }
+    
+    #whole-custome-amount {
+      margin-left: 150px;
+    }
+    
+    .support-button-form {
+      margin-left: 220px;
+    }
+    
+    .support-us-option, .volunteer-option, .interships-option {
+      width: 900px;
+      margin-left: 150px;
+    }
+  }
+
+  /*MAX WITH 1100PX*/
+@media (max-width: 1100px) {
+    .donation-form {
+        margin-left: 50px;
+      }
+    
+    .support-us-option, .volunteer-option, .interships-option {
+      width: 900px;
+      margin-left: 100px;
+    }
+  }
+
+  /*MAX WITH 1069PX*/
+@media (max-width: 1069px) {
+    .donation-form {
+        width: 800px;
+      margin-left: 130px;
+      }
+    
+    #amount-one {
+        margin-left: 20px;
+      }
+    
+    #whole-custome-amount {
+        margin-left: 50px;
+      }
+    
+    .support-button-form {
+        margin-left: 100px;
+      }
+    
+    .support-us-option, .volunteer-option, .interships-option {
+        width: 700px;
+        margin-left: 200px;
+      height: 700px;
+    }
+      
+    .support-image {
+      margin-left: 170px;
+    }
+    
+    .support-button {
+      width: 400px;
+      height: 40px;
+      margin-left: 150px;
+    }
+    
+    .support-button a {
+      font-size: 15px;
+    }
+  }
+
+  /*MAX WITH 950PX*/
+@media (max-width: 950px) {
+    .donation-form {
+      margin-left: 50px;
+    }
+    
+    .support-us-option, .volunteer-option, .interships-option {
+      margin-left: 100px;
+    }
+  }
+
+  /*MAX WITH 900PX*/
+@media (max-width: 900px) {
+    .donation-form {
+          width: 700px;
+          margin-left: 70px;
+        }
+    
+    #amount-two, #amount-three, #amount-four, #amount-five {
+      margin-left: 30px;
+    }
+      
+    textarea {
+      width: 300px;
+    }
+    
+    textarea:hover {
+      width: 300px;
+    }
+    
+    .support-button-form {
+      width: 200px;
+      margin-left: 250px;
+    }
+    
+    .support-us-option, .volunteer-option, .interships-option {
+        width: 600px;
+      height: 450px;
+        margin-left: 130px;
+      }
+    
+    .support-image img {
+      width: 200px;
+      height: 100px;
+    }
+    
+    .support-image {
+      margin-left: 200px;
+    }
+    
+    .support-text h1 {
+      font-size: 30px;
+    }
+    
+    .support-text p {
+      font-size: 15px;
+    }
+    
+    .support-button {
+      margin-left: 130px;
+      width: 350px;
+    }
+  }
+
+  /*MAX WITH 800PX*/
+@media (max-width: 800px) {
+    .donation-form {
+            width: 550px;
+            margin-left: 70px;
+          }
+    
+    #amount-five {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    
+     textarea {
+        width: 200px;
+       margin-left: 10px;
+      }
+    
+    .support-button-form {
+      margin-left: 180px;
+    }
+    
+    .support-us-option, .volunteer-option, .interships-option {
+        width: 450px;
+      height: 380px;
+        margin-left: 130px;
+      }
+    
+    .support-image {
+      display: none;
+    }
+    
+    .support-button a {
+        font-size: 10px;
+      }
+    
+    .support-button {
+      width: 280px;
+      margin-left: 100px;
+    }
+  }
+
+  /*MAX WITH 800PX*/
+@media (max-width: 800px) {
+    .donation-form {
+            width: 550px;
+            margin-left: 70px;
+          }
+    
+    #amount-five {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    
+     textarea {
+        width: 200px;
+       margin-left: 10px;
+      }
+    
+    .support-button-form {
+      margin-left: 180px;
+    }
+    
+    .support-us-option, .volunteer-option, .interships-option {
+        width: 450px;
+      height: 380px;
+        margin-left: 130px;
+      }
+    
+    .support-image {
+      display: none;
+    }
+    
+    .support-button a {
+        font-size: 10px;
+      }
+    
+    .support-button {
+      width: 280px;
+      margin-left: 100px;
+    }
+  }
+  
+  /*MAX WITH 640PX*/
+    @media (max-width: 640px) {
+      .donation-form {
+          width: 450px;
+          margin-left: 80px;
+       }
+      
+      #amount-four {
+        margin-left: 29px;
+      }
+      
+      textarea {
+          width: 150px;
+         margin-left: 10px;
+      }
+        
+        .support-button-form {
+        margin-left: 100px;
+      }
+      
+      .support-us-option, .volunteer-option, .interships-option {
+          width: 400px;
+          margin-left: 110px;
+        }
+      
+      .support-button {
+        margin-left: 50px;
+      }
+  }
