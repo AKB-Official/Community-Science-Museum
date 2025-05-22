@@ -29,3 +29,5 @@
 ![Home Page Top](./media/read-me-media/home-page-latop.jpg)
 **Home Page Bottom**
 ![Home Page Bottom](./media/read-me-media/home-page-laptop.jpg)
+**Exhibition Page**
+![Exhibition Page](./media/read-me-media/exhitibitions-laptop.jpg)
