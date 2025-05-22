@@ -8,6 +8,9 @@
     width: 700px;
 }
 
+#specifc-file-header h1{
+  font-size: 30px;
+}
 .specifc-file-option-eight {
     margin-bottom: 50px;
 }
@@ -26,7 +29,7 @@
 }
 
 #specific-file-info {
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #specific-file-info p {
@@ -60,6 +63,14 @@
 
 .specifc-file-text-one:hover {
     background-color: #fac898;
+}
+
+/*MAX WITH 1400PX*/
+@media (max-width: 1400px) {
+  .specifc-file-header h1 {
+      font-size: 20px;
+    }
+
 }
 
 /*MAX WITH 1300PX*/
@@ -113,6 +124,13 @@
       }
   }
 
+  /*MAX WITH 950PX*/
+@media (max-width: 950px) {
+.info-hide-this {
+        display: none;
+      }
+}
+
 /*MAX WITH 900PX*/
 @media (max-width: 900px) {
     .header-of-specific-page h1 {
@@ -127,7 +145,6 @@
       #specifc-file-header h1 {
         font-size: 20px;
       }
-      
     }
   
   /*MAX WITH 850PX*/
@@ -193,7 +210,7 @@
       }
     
     #specific-file-info p {
-          font-size: 8px;
+          font-size: 6px;
         }
     
     #specifc-file-header h1 {
