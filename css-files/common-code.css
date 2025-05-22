@@ -9,12 +9,12 @@
 }
 
   /* FONT-SIZE: 20PX */
-  #option-one-contact a, input, textarea, #phone-number-contact p, #front-desk-contact p, .last-option-contact p, .hero-text p, .menubar, .button-header a, .explore-text p, .explore-text-one p, .partnerships-info-page p, .text-info-box p, .unfold-question-thing-content-text, .unfold-question-thing {
+  #option-one-contact a, input, textarea, #phone-number-contact p, #front-desk-contact p, .last-option-contact p, .hero-text p, .menubar, .button-header a, .partnerships-info-page p, .text-info-box p, .unfold-question-thing-content-text, .unfold-question-thing {
     font-size: 20px;
   }
 
   /* FONT-SIZE: 25PX */
-  .formbutton a, .faq-link-contact-page a, label, .menubar a, #footer-option-one h1, #footer-option-two h1, #footer-option-three h1, #footer-option-four h1, #footer-option-three h2, .parnterships-overview, .parnterships-overview-last, #visit-us-text h1, #option-one-contact a:hover, #hero-text p {
+  .formbutton a, .faq-link-contact-page a, label, .menubar a, #footer-option-one h1, #footer-option-two h1, #footer-option-three h1, #footer-option-four h1, #footer-option-three h2, #visit-us-text h1, #option-one-contact a:hover, #hero-text p {
     font-size: 25px;
   }
 
@@ -24,7 +24,7 @@
   }
 
   /* FONT-SIZE: 35PX */
-.explore-text h1, .explore-text-one h1, .partnerships-info-page h1, .text-info-box h1, .support-text h1, #hero-text h1, .menubar h1 {
+.partnerships-info-page h1, .text-info-box h1, .support-text h1, #hero-text h1, .menubar h1 {
     font-size: 35px;
   }
   
@@ -145,9 +145,5 @@
     background-size: cover;
     position: relative;
 }
-.support-image img {
-      width: 100px;
-      height: 100px;
-    }
 
-    
+.parnterships-overview, .parnterships-overview-last
