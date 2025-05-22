@@ -222,8 +222,13 @@
 
 /*MAX WITH 750PX*/
 @media (max-width: 750px) {
+
+  #specifc-file-header h1 {
+    font-size: 13px;
+  }
+
     #specific-file-info p {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 
@@ -237,14 +242,6 @@
     .specifc-file-text, .specifc-file-text-one {
       padding: 0px 0px 0px 0px;
     }
-    
-     #specifc-file-header h1 {
-      font-size: 15px;
-    }
-    
-    #specific-file-info p {
-        font-size: 9px;
-      }
     
     .hero-image-button a {
       font-size: 18px;
@@ -285,15 +282,6 @@
 
 /*MAX WITH 550PX*/
 @media (max-width: 550px) {
-    #specifc-file-header h1 {
-      font-size: 12px;
-    }
-    
-      
-    #specific-file-info p {
-      font-size: 8px;
-    }
-    
     .header-of-specific-page h1 {
       font-size: 20px;
     }
