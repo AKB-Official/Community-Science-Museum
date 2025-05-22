@@ -549,6 +549,14 @@ main.page-body {
   .flex-menu {
     margin-left: 400px;
   }
+
+  #footer-option-one {
+    display: none;
+  }
+
+  #footer-option-two h1 {
+    margin-left: 70px;
+  }
 }
 
 /*MAX WITH 700PX*/
@@ -627,8 +635,12 @@ main.page-body {
    @media (max-width: 490px) {
   
     #footer-option-two h1 {
-     margin-left: 7px;
+     margin-left: 15px;
    }
+
+    #footer-option-two p {
+      font-size: 8px;
+    }
  
    #monday-footer-option {
      margin-left: -5px;
