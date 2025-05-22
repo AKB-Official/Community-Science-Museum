@@ -4,6 +4,10 @@
     margin: 80px 0px 80px 270px;
 }
 
+.parnterships-overview, .parnterships-overview-last {
+  font-size: 20px;
+}
+
 .partnerships-info-page p {
     padding: 0px 30px 0px 30px;
 }
@@ -209,10 +213,6 @@
 
   /*MAX WITH 950PX*/
 @media (max-width: 950px) {
-    .parnterships-overview, .parnterships-overview-last {
-      display: none;
-    }
-    
     .phone-thing-only {
       display: block;
       margin-left: 250px;
