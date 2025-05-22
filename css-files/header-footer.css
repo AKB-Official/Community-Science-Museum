@@ -84,12 +84,13 @@ main.page-body {
 /* HEADER CODE */
 .header-museum-name img {
     height: 120px;
+    width: 300px;
 }
 
 .header-museum-name {
    margin-left: -20px;
    margin-right: 0px;
-   width: 320px;
+   width: 100px;
 }
 
 .flex-menu {
