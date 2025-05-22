@@ -9,7 +9,7 @@
 }
 
   /* FONT-SIZE: 20PX */
-  #option-one-contact a, input, textarea, #phone-number-contact p, #front-desk-contact p, .last-option-contact p, .hero-text p, .menubar, .button-header a, .explore-text p, .explore-text-one p, .partnerships-info-page p, .text-info-box p, .unfold-question-thing-content-text, .support-text p, #visit-us-text p, #text-boxes-visit-us p, .unfold-question-thing {
+  #option-one-contact a, input, textarea, #phone-number-contact p, #front-desk-contact p, .last-option-contact p, .hero-text p, .menubar, .button-header a, .explore-text p, .explore-text-one p, .partnerships-info-page p, .text-info-box p, .unfold-question-thing-content-text, .support-text p, .unfold-question-thing {
     font-size: 20px;
   }
 
@@ -24,7 +24,7 @@
   }
 
   /* FONT-SIZE: 35PX */
-  #text-boxes-visit-us h1, .explore-text h1, .explore-text-one h1, .partnerships-info-page h1, .text-info-box h1, .support-text h1, #hero-text h1, .menubar h1 {
+.explore-text h1, .explore-text-one h1, .partnerships-info-page h1, .text-info-box h1, .support-text h1, #hero-text h1, .menubar h1 {
     font-size: 35px;
   }
   
