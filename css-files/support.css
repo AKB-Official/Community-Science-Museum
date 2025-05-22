@@ -1,17 +1,12 @@
-.support-image img {
-    height: 250px;
-}
-
-.support-image {
-    margin-left: 320px;
-    margin-top: 20px;
+.support-text p {
+  font-size: 20px;
 }
 
 .support-us-option, .volunteer-option, .interships-option {
     width: 1000px;
     margin-left: 300px;
     margin-top: 50px;
-    height: 650px;
+    height: 450px;
 }
 
 .support-us-option {
@@ -170,6 +165,10 @@ textarea:hover {
       width: 900px;
       margin-left: 100px;
     }
+
+    .support-text p {
+      font-size: 15px;
+    }
   }
 
   /*MAX WITH 1069PX*/
@@ -194,7 +193,7 @@ textarea:hover {
     .support-us-option, .volunteer-option, .interships-option {
         width: 700px;
         margin-left: 200px;
-      height: 700px;
+        height: 500px;
     }
       
     .support-image {
@@ -253,21 +252,12 @@ textarea:hover {
         margin-left: 130px;
       }
     
-    .support-image img {
-      width: 200px;
-      height: 100px;
-    }
-    
     .support-image {
       margin-left: 200px;
     }
     
     .support-text h1 {
       font-size: 30px;
-    }
-    
-    .support-text p {
-      font-size: 15px;
     }
     
     .support-button {
@@ -361,7 +351,7 @@ textarea:hover {
   /*MAX WITH 640PX*/
     @media (max-width: 640px) {
       .donation-form {
-          width: 450px;
+          width: 500px;
           margin-left: 80px;
        }
       
@@ -379,8 +369,9 @@ textarea:hover {
       }
       
       .support-us-option, .volunteer-option, .interships-option {
-          width: 400px;
-          margin-left: 110px;
+          width: 450px;
+          height: 400px;
+          margin-left: 80px;
         }
       
       .support-button {
