@@ -99,6 +99,11 @@
     .hero-text p {
       font-size: 15px;
     }
+
+    #visit-us-faq-button {
+      width: 50px;
+      margin-left: 0px;
+    }
   }
 
   /*MAX WITH 850PX*/
