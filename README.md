@@ -25,7 +25,7 @@
 - Is A Website For A Fictional Museum Located In Coney Island, New York City, USA
 
 ## How Does Community Science Museum Look Like For Desktop / Laptop Size Devices ?
-Home Page Top
+**Home Page Top**
 ![Home Page Top](./media/read-me-media/home-page-latop.jpg)
-Home Page Bottom
+**Home Page Bottom**
 ![Home Page Bottom](./media/read-me-media/home-page-laptop.jpg)
