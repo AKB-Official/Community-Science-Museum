@@ -31,3 +31,11 @@
 ![Home Page Bottom](./media/read-me-media/home-page-laptop.jpg)
 **Exhibition Page**
 ![Exhibition Page](./media/read-me-media/exhitibitions-laptop.jpg)
+
+## How Does Community Science Museum Look Like For Phone Size Devices ?
+**About Page**
+![About Page](./media/read-me-media/about-phone.jpg)
+**Pratical Information Page**
+![Pratical Information Page](./media/read-me-media/info-phone.jpg)
+**Menu On Phone / Tablet**
+![Menu On Phone / Tablet](./media/read-me-media/menu-phone.jpg)
